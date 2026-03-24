@@ -85,12 +85,3 @@ pins:
     meta: H144_IN_TPS
     class: analog_inputs
     ts_name: TPS
-    
-    
-    
-    
-    
-    
-    
-	
-
