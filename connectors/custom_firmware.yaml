@@ -85,3 +85,115 @@ pins:
     meta: H144_IN_TPS
     class: analog_inputs
     ts_name: TPS
+    
+  - pin: A9
+    meta: H144_IN_TPS
+    class: analog_inputs
+    ts_name: TPS
+    
+  - pin: D1
+    meta: H144_IN_CRANK
+    class: event_inputs
+    ts_name: CRANK
+    
+  - pin: D2
+    meta: H144_IN_CAM
+    class: event_inputs
+    ts_name: CAM
+    
+  - pin: D3
+    meta: H144_IN_VSS
+    class: event_inputs
+    ts_name: VSS
+    
+  - pin: D4
+    meta: H144_IN_D_1
+    class: event_inputs
+    ts_name: D1
+    
+  - pin: D5
+    meta: H144_IN_D_2
+    class: event_inputs
+    ts_name: D2
+    
+  - pin: D6
+    meta: H144_IN_D_3
+    class: event_inputs
+    ts_name: D3
+    
+  - pin: D7
+    meta: H144_IN_D_4
+    class: event_inputs
+    ts_name: D4
+    
+  - pin: D8
+    meta: H144_IN_RES1
+    class: event_inputs
+    ts_name: RES1
+    
+  - pin: DA1
+    meta: H144_IN_AUX1
+    class: analog_inputs
+    ts_name: AUX1
+    
+  - pin: DA1
+    meta: H144_IN_AUX1_DIGITAL
+    class: event_inputs
+    ts_name: AUX1
+    
+  - pin: DA2
+    meta: H144_IN_AUX2
+    class: analog_inputs
+    ts_name: AUX2
+    
+  - pin: DA2
+    meta: H144_IN_AUX2_DIGITAL
+    class: event_inputs
+    ts_name: AUX2
+    
+  - pin: DA3
+    meta: H144_IN_AUX3
+    class: analog_inputs
+    ts_name: AUX3
+    
+  - pin: DA3
+    meta: H144_IN_AUX3_DIGITAL
+    class: event_inputs
+    ts_name: AUX3
+    
+  - pin: DA4
+    meta: H144_IN_AUX4
+    class: analog_inputs
+    ts_name: AUX4
+    
+  - pin: DA4
+    meta: H144_IN_AUX4_DIGITAL
+    class: event_inputs
+    ts_name: AUX4
+    
+  - pin: DA5
+    meta: H144_ADC_IN_RES2
+    class: analog_inputs
+    ts_name: RES2
+    
+  - pin: DA5
+    meta: H144_IN_RES2
+    class: event_inputs
+    ts_name: RES2
+    
+  - pin: DA6
+    meta: H144_ADC_IN_RES3
+    class: analog_inputs
+    ts_name: RES3
+    
+  - pin: DA6
+    meta: H144_IN_RES3
+    class: event_inputs
+    ts_name: RES3
+    
+  - pin: A10
+    meta: F7
+    class: analog_inputs
+    ts_name: KNOCK
+    
+   
