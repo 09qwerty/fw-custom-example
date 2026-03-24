@@ -22,22 +22,22 @@ pins:
     ts_name: IGN4
     
   - pin: O5
-    meta: H144_INJ_1
+    meta: H144_LS_1
     class: outputs
     ts_name: INJ1
    
   - pin: O6
-    meta: H144_INJ_2
+    meta: H144_LS_2
     class: outputs
     ts_name: INJ2
     
   - pin: O7
-    meta: H144_INJ_3
+    meta: H144_LS_3
     class: outputs
     ts_name: INJ3
     
   - pin: O8
-    meta: H144_INJ_4
+    meta: H144_LS_4
     class: outputs
     ts_name: INJ4
     
