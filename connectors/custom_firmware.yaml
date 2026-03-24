@@ -132,11 +132,6 @@ pins:
     ts_name: RES1
     
   - pin: DA1
-    meta: H144_IN_AUX1
-    class: analog_inputs
-    ts_name: AUX1
-    
-  - pin: DA1
     meta: H144_IN_AUX1_DIGITAL
     class: event_inputs
     ts_name: AUX1
@@ -172,9 +167,19 @@ pins:
     ts_name: AUX4
     
   - pin: DA5
+    meta: H144_ADC_IN_RES2
+    class: analog_inputs
+    ts_name: RES2
+    
+  - pin: DA5
     meta: H144_IN_RES2
     class: event_inputs
     ts_name: RES2
+    
+  - pin: DA6
+    meta: H144_ADC_IN_RES3
+    class: analog_inputs
+    ts_name: RES3
     
   - pin: DA6
     meta: H144_IN_RES3
