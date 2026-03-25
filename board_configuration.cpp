@@ -1,12 +1,12 @@
 #include "pch.h"
 #include "board_overrides.h"
-#define H144_IN_AUX1 B0
-#define H144_IN_AUX2 C4
-#define H144_IN_AUX3 A7
-#define H144_IN_AUX4 C5
 
 // board-specific configuration setup
 static void customBoardDefaultConfiguration() {
+        setHellenVbatt();
+        setHellenCan();
+        setDefaultHellenAtPullUps();
+        
         engineConfiguration->injectionPins[0] = Gpio::G7;
         engineConfiguration->injectionPins[1] = Gpio::G8;
         engineConfiguration->injectionPins[2] = Gpio::D11;

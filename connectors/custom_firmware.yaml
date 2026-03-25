@@ -137,29 +137,14 @@ pins:
     ts_name: AUX1
     
   - pin: DA2
-    meta: H144_IN_AUX2
-    class: analog_inputs
-    ts_name: AUX2
-    
-  - pin: DA2
     meta: H144_IN_AUX2_DIGITAL
     class: event_inputs
     ts_name: AUX2
     
   - pin: DA3
-    meta: H144_IN_AUX3
-    class: analog_inputs
-    ts_name: AUX3
-    
-  - pin: DA3
     meta: H144_IN_AUX3_DIGITAL
     class: event_inputs
     ts_name: AUX3
-    
-  - pin: DA4
-    meta: H144_IN_AUX4
-    class: analog_inputs
-    ts_name: AUX4
     
   - pin: DA4
     meta: H144_IN_AUX4_DIGITAL
