@@ -1,6 +1,4 @@
-include $(BOARD_DIR)/firmware/firmware.mk
-BOARDINC += $(BOARD_DIR)/generated/controllers/generated
-include $(BOARD_DIR)/meta-info.env
+BOARDCPPSRC = $(BOARD_DIR)/board_configuration.cpp
 
 DDEFS += -DEFI_WIDEBAND_FIRMWARE_UPDATE=FALSE
 
@@ -29,6 +27,6 @@ DDEFS += -DEFI_MALFUNCTION_INDICATOR=TRUE
 DDEFS += -DEFI_SENT_SUPPORT=TRUE
 
 #Hellen Setup
-include $(BOARDS_DIR)/hellen/hellen-common-mega144.mk
+include $(BOARD_DIR)/hellen/hellen-common-mega144.mk
 
 
