@@ -27,6 +27,6 @@ DDEFS += -DEFI_MALFUNCTION_INDICATOR=TRUE
 DDEFS += -DEFI_SENT_SUPPORT=TRUE
 
 #Hellen Setup
-include $(BOARD_DIR)/hellen/hellen-common-mega144.mk
+include $(BOARDS_DIR)/hellen/hellen-common-mega144.mk
 
 
