@@ -8,7 +8,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
 		case Gpio::A6: return "CAM";
 		case Gpio::A7: return "AUX3";
-		case Gpio::B0: return "AUX1D";
+		case Gpio::B0: return "AUX1";
 		case Gpio::B1: return "CRANK";
 		case Gpio::C13: return "IGN1";
 		case Gpio::C5: return "AUX4";
