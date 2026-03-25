@@ -172,7 +172,7 @@ pins:
     ts_name: RES3
     
   - pin: A10
-    meta: PF_7
+    meta: 87
     class: analog_inputs
     ts_name: KNOCK
     
