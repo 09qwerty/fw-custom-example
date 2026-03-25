@@ -1,5 +1,7 @@
 #include "pch.h"
 #include "board_overrides.h"
+#include "hellen_meta.h"
+#include "defaults.h"
 
 // board-specific configuration setup
 static void customBoardDefaultConfiguration() {
