@@ -86,11 +86,6 @@ pins:
     class: analog_inputs
     ts_name: TPS
     
-  - pin: A9
-    meta: H144_IN_TPS
-    class: analog_inputs
-    ts_name: TPS
-    
   - pin: D1
     meta: H144_IN_CRANK
     class: event_inputs
@@ -172,7 +167,7 @@ pins:
     ts_name: RES3
     
   - pin: A10
-    meta: 87
+    id: F7
     class: analog_inputs
     ts_name: KNOCK
     
