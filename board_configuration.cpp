@@ -19,8 +19,6 @@ static void customBoardDefaultConfiguration() {
         
         engineConfiguration->triggerInputPins[0] = Gpio::B1;
         engineConfiguration->triggerInputPins[1] = Gpio::A6;
-        
-        engineConfiguration->knockMode = KNOCK_MODE_ON;
 }
 
 void setup_custom_board_overrides() {
