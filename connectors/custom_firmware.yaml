@@ -166,9 +166,4 @@ pins:
     class: event_inputs
     ts_name: RES3
     
-  - pin: A10
-    id: ADC3_IN5
-    class: analog_inputs
-    ts_name: KNOCK
-    
    
