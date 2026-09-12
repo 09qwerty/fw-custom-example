@@ -2289,7 +2289,7 @@
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
 #define ts_show_wbo_canbus_set_type true
-#define TS_SIGNATURE "rusEFI main.2026.09.11.stalet.2471105275"
+#define TS_SIGNATURE "rusEFI main.2026.09.12.stalet.2471105275"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
